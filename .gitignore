@@ -1,0 +1,28 @@
+# Terraform working files, state, and saved plans
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+
+# Local inputs, overrides, and CLI configuration
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Local AWS credentials and environment files
+.aws/
+aws-credentials
+aws-credentials.*
+.env
+.env.*
+!.env.example
+
+# Keep .terraform.lock.hcl under version control once generated.
